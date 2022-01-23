@@ -1,0 +1,18 @@
+3)Write a “person” class to hold all the details.
+ class person{
+ constructor(name,email,DOB,age,gender,address,qualification,state,nationality)
+{
+this.name=name;
+this.email=email;
+this.DOB=DOB;
+this.age=age;
+this.gender=gender;
+this.address=address;
+this.qualifIcation=qualification;
+this.state=state;
+this.nationality=nationality;
+}
+}
+let s1=new Person("Buel","buel@gmail.com","01-01-1994","Female","No.5 xyz street,chennai","B.Tech-IT","Tamil Nadu",Indian");
+console.log(s1.qualification);
+
