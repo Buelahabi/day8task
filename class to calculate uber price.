@@ -1,0 +1,14 @@
+4)write a class to calculate uber price.
+
+let price=50;
+class uberpr{
+    constructor(kilometer){
+        this.kilometer=kilometer;
+    }
+    getuberprice(){
+        return this.kilometer*price;
+    }
+}
+let a=new uberpr(10);
+console.log(a.getuberprice()+" Rs")
+
